@@ -1,7 +1,7 @@
 # CipherCascade: A Multi-Layer Encryption Framework
 The CipherCascade application is designed to provide users with a robust, multi-layered encryption platform for securing sensitive data. It allows users to register, authenticate, encrypt/decrypt messages using multiple cascading algorithms (AES, DES, Blowfish), and persistently store encrypted data in a relational database — providing a comprehensive security toolkit for data protection and cryptographic learning.
 
-Technologies Used:
+# Technologies Used:
 
 Component      	Technology
 Programming Language	Java (OOP + JDBC)
@@ -11,7 +11,7 @@ Encryption Libraries	Java Cryptography Extension (JCE)
 IDE	IntelliJ IDEA / link Eclipse
 JDK Version	Java SE 8+
  
-Database Overview
+# Database Overview
 
 Database: cipherdb
 All tables are linked with foreign keys and support ON DELETE CASCADE for data consistency.
@@ -22,7 +22,7 @@ The app uses two main tables:
 
 
 
-Key Features
+# Key Features
 
 •	User registration and login with validation 
 •	Multi-algorithm cascade encryption system (AES, DES, Blowfish) 
@@ -48,7 +48,7 @@ Core Concepts Implemented
 •	CardLayout Navigation for multi-screen applications 
 •	TableModel Management for dynamic data display
 
-Encryption Algorithms Supported
+# Encryption Algorithms Supported
 
 1.	AES (Advanced Encryption Standard) - 128-bit symmetric encryption 
 2.	DES (Data Encryption Standard) - 56-bit legacy encryption 
